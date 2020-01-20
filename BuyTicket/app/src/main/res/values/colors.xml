@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f57c00</color>
+    <color name="colorPrimaryDark">#f57c00</color>
+    <color name="colorAccent">#4C89F4</color>
+    <color name="textColorHint">#CDCDCD</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="Spaire">#CDCDCD</color>
+    <color name="btn">#449dd5</color>
+    <color name="green">#5dc534</color>
+    <color name="gray">#5b5b5b</color>
+    <color name="light_gray">#7c7c7c</color>
+
+    <color name="dark_gray">#707070</color>
+    <color name="darkMode_black">#262626</color>
+    <color name="darkMode_blue">#4C89F4</color>
+    <color name="weak_white">#9c9c9c</color>
+    <!--<color name="darkMode_blue">#212E51</color>-->
+</resources>

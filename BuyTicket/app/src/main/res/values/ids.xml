@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="label_concert_startday" type="id" />
+    <item name="label_concert_people" type="id" />
+    <item name="concert_money" type="id" />
+    <item name="label_concert_number" type="id" />
+    <item name="label_concert_seat" type="id" />
+    <item name="label_address" type="id" />
+    <item name="address" type="id" />
+    <item name="person" type="id" />
+    <item name="label_password" type="id" />
+    <item name="email" type="id" />
+    <item name="label_person" type="id" />
+    <item name="label_name" type="id" />
+    <item name="password" type="id" />
+    <item name="birthday" type="id" />
+    <item name="name" type="id" />
+    <item name="phone" type="id" />
+    <item name="label_phone" type="id" />
+    <item name="label_email" type="id" />
+    <item name="label_birthday" type="id" />
+    <item name="label_concert_ticket" type="id" />
+    <item name="label_concert__number" type="id" />
+    <item name="label_concert_stop" type="id" />
+    <item name="button_ok" type="id" />
+    <item name="label_concert_start" type="id" />
+    <item name="label_hide" type="id" />
+    <item name="label_concert_money" type="id" />
+    <item name="label_concert_name" type="id" />
+    <item name="label_concert_stopday" type="id" />
+    <item name="button_cancel" type="id" />
+</resources>

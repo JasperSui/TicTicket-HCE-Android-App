@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="team.ten.buyticket"
+      android:versionCode="1"
+      android:versionName="20190518.01"
+      split="lib_slice_9_apk">
+</manifest>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".BuyActivity">-->
+
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/img_concertBuy_pic"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:padding="5dp"-->
+        <!--android:scaleType = "centerCrop"-->
+        <!--app:srcCompat="@drawable/background2" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/view_buyinfo" />-->
+
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/buyinfo_collapsing_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="@color/darkMode_black"
+            android:background="@color/darkMode_black"
+            app:expandedTitleMarginEnd="6dp"
+            app:expandedTitleMarginStart="10dp"
+            app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Title"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+
+            <ImageView
+            android:id="@+id/img_concertBuy_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType = "centerCrop"
+            app:srcCompat="@drawable/background2"
+            app:layout_collapseParallaxMultiplier="0.5"/>
+
+            <TextView
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/view_buyinfo" />
+
+                <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="horizontal">-->
+                <!--<TextView-->
+                    <!--android:id="@+id/btn_concertBuy_back"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:layout_marginTop="25dp"-->
+                    <!--android:text="&lt;"-->
+                    <!--android:textSize="40sp"-->
+                    <!--android:onClick="go_back"-->
+                    <!--android:textColor="@color/white" />-->
+            <!--</LinearLayout>-->
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/buyinfo_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />        <!--toolbar折叠后固定于顶部 -->
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">   <!--为滑动控件设置Behavior,这样上面的控件才能做出相应改变 -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+
+            <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:stretchColumns="1">
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="開賣日期"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+
+            <TextView
+            android:id="@+id/label_concertBuy_start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2019/01/01 00:00"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+            </TableRow>
+
+            <!--<TableRow android:layout_height="1dp" android:background="#FFF">-->
+            <!--<TextView android:layout_span="2" android:layout_height="1dp"-->
+            <!--android:layout_width="fill_parent" android:text="">-->
+            <!--</TextView>-->
+            <!--</TableRow>-->
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="售票截止"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+
+            <TextView
+            android:id="@+id/label_concertBuy_stop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2019/01/02 00:00"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+            android:textColor="@color/white" />
+
+            </TableRow>
+
+            <!--<TableRow android:layout_height="1dp" android:background="#FFF">-->
+            <!--<TextView android:layout_span="2" android:layout_height="1dp"-->
+            <!--android:layout_width="fill_parent" android:text="">-->
+            <!--</TextView>-->
+            <!--</TableRow>-->
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="票券售價"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+
+            <TextView
+            android:id="@+id/label_concertBuy_money"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NT.000"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/white" />
+
+            </TableRow>
+
+            <!--<TableRow android:layout_height="1dp" android:background="#FFF">-->
+            <!--<TextView android:layout_span="2" android:layout_height="1dp"-->
+            <!--android:layout_width="fill_parent" android:text="">-->
+            <!--</TextView>-->
+            <!--</TableRow>-->
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="剩餘座位"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+
+            <TextView
+            android:id="@+id/label_concertBuy_seat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="00/00"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+            </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:clickable = "false">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="場次說明"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/label_concertBuy_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="關於這場次的說明文字將會顯示於此"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="45dp"
+                    android:paddingRight="30dp"
+                    android:singleLine="false"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:clickable="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:clickable="false"
+                    android:onClick="okay"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:text="購買" />
+
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/label_hide"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="               "
+            android:textSize="1sp"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

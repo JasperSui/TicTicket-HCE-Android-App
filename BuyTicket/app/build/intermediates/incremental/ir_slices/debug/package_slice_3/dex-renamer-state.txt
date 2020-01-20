@@ -1,0 +1,4 @@
+#Sat May 18 15:31:20 CST 2019
+base.0=/Users/swind/Desktop/BuyTicket/app/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex

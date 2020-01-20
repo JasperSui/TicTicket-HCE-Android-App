@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity">
+
+    <TextView
+        android:id="@+id/ticket"
+        android:layout_width="152dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/starttime"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="18dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/stoptime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/start"
+        app:layout_constraintTop_toBottomOf="@+id/ticket" />
+
+    <TextView
+        android:id="@+id/stoptime"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="54dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/okb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stot"
+        app:layout_constraintTop_toBottomOf="@+id/starttime" />
+
+    <TextView
+        android:id="@+id/tn"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="16dp"
+        android:text="票券名稱"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/per"
+        app:layout_constraintEnd_toStartOf="@+id/ticket"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/per"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="29dp"
+        android:text="　人數"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/start"
+        app:layout_constraintEnd_toEndOf="@+id/tn"
+        app:layout_constraintStart_toStartOf="@+id/tn"
+        app:layout_constraintTop_toBottomOf="@+id/tn" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="18dp"
+        android:text="開賣日期"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/stot"
+        app:layout_constraintEnd_toStartOf="@+id/starttime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/per" />
+
+
+    <TextView
+        android:id="@+id/stot"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="54dp"
+        android:text="截止日期"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/cb"
+        app:layout_constraintEnd_toStartOf="@+id/stoptime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start" />
+
+    <TextView
+        android:id="@+id/site"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="54dp"
+        android:text="剩餘位子"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/ticket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ticket"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cb"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="252dp"
+        android:text="取消"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/okb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stot" />
+
+    <Button
+        android:

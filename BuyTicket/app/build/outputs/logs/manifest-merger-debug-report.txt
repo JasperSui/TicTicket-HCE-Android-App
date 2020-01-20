@@ -1,0 +1,290 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+MERGED from [com.android.support:design:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/a1e201abe433623fa7b669f4579216a1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/345b8eadf1998161ec77e375cf6e6cdf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/swind/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/30588b8b7d0ea307785432a21444eff3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/2f9b354ab6aaebbebd16705577c7cad7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0609a4009f33017d93354b0b827bca36/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/18ba180ff9d1a84755833ebcc54110bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a427480e0ed0ba81a177299c5a7ed3f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b5afaf0005343db05b470b31612f2a38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/01ee21a31db330a568900cfe58ac7c18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c0de37a2d45df3cd066f2de7a4631c8f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/32c0ce797172b4a8cb1813ba38f89760/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7dcd10900d94fa4d353e3b42d0f7cc69/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5f3f9c74406a131932076e00d7e77254/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/fe62b30a95f79038c9e6a45143259887/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d0756fa6fb9511b99f3a5d470ee350ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/af2ace9812d6f664caf9a277b8fba70e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e93318af951b632ea9e5907b36aa5e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ba42cbc3f28aee63f08c00feae6c7d47/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/74020468ef8d6cc7dee7c2b133003520/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c1b83a2cc731d816cdf53c68571adc86/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2f37f383580f7b8553baa3ab93bab73/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e879da0eca59477cf3a056052236b627/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ee9a0d8ce40f99a3ad56ecb92cdec682/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/0cf01dbc89a91c770f97dda81064170c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/360f3a81c703d8cb6d944021e72ef3f3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc69cc5a3fb0bdb3405f091def397f1e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/72899d5b9f772b727a59b76795802c98/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a3b0e57d5ff7bfad26dcf563a21eac0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/627c0d9781c67d17eeac82f9c0245807/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/84a424890367ba8dfac4bd56b9cb8e7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b66104ab589c54390c5744525c2948ed/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/60f0792ca9a6e8387b3b53603ff23a52/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dec09ceadca37485e925cad041b84d5d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/aa5c406758af046a1c638da5f8bb0dd9/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+	package
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:1-69:12
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.nfc.hce
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:6:9-48
+uses-permission#android.permission.NFC
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:9:5-62
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:9:22-59
+uses-permission#android.permission.INTERNET
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:12:22-73
+application
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:14:5-67:19
+MERGED from [com.android.support:design:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/a1e201abe433623fa7b669f4579216a1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/a1e201abe433623fa7b669f4579216a1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/swind/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/30588b8b7d0ea307785432a21444eff3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/swind/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/30588b8b7d0ea307785432a21444eff3/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2f37f383580f7b8553baa3ab93bab73/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2f37f383580f7b8553baa3ab93bab73/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e879da0eca59477cf3a056052236b627/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e879da0eca59477cf3a056052236b627/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2f37f383580f7b8553baa3ab93bab73/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:19:9-40
+activity#team.ten.buyticket.SplashActivity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:20:9-27:20
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:21:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:20:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:25:27-74
+activity#team.ten.buyticket.CreditCardActivity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:28:9-29:51
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:28:19-53
+uses-library#org.apache.http.legacy
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:30:9-32:40
+	android:required
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:31:13-50
+activity#team.ten.buyticket.InductionActivity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:34:9-35:51
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:34:19-52
+activity#team.ten.buyticket.BuyActivity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:36:9-37:51
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:36:19-46
+activity#team.ten.buyticket.Activity_login.ForgotInfo_Activity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:38:9-39:51
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:38:19-69
+activity#team.ten.buyticket.Activity_login.Register_Activity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:40:9-41:51
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:40:19-67
+activity#team.ten.buyticket.MainActivity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:42:9-43:51
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:42:19-47
+activity#team.ten.buyticket.Activity_login.Changepassword_Activity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:44:9-45:51
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:44:19-73
+activity#team.ten.buyticket.Activity_login.Login_Activity
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:46:9-47:61
+	android:screenOrientation
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:46:19-64
+service#team.ten.buyticket.cardemulation.CardService
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:48:9-66:19
+	android:exported
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:49:13-54
+intent-filter#action:name:android.nfc.cardemulation.action.HOST_APDU_SERVICE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:54:13-58:29
+action#android.nfc.cardemulation.action.HOST_APDU_SERVICE
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:55:17-93
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:55:25-90
+category#android.intent.category.DEFAULT
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:57:17-76
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:57:27-73
+meta-data#android.nfc.cardemulation.host_apdu_service
+ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:63:13-65:52
+	android:resource
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:65:17-49
+	android:name
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml:64:17-75
+uses-sdk
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/a1e201abe433623fa7b669f4579216a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/a1e201abe433623fa7b669f4579216a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/345b8eadf1998161ec77e375cf6e6cdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/345b8eadf1998161ec77e375cf6e6cdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/swind/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/30588b8b7d0ea307785432a21444eff3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/swind/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/30588b8b7d0ea307785432a21444eff3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/2f9b354ab6aaebbebd16705577c7cad7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/2f9b354ab6aaebbebd16705577c7cad7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0609a4009f33017d93354b0b827bca36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0609a4009f33017d93354b0b827bca36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/18ba180ff9d1a84755833ebcc54110bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/18ba180ff9d1a84755833ebcc54110bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a427480e0ed0ba81a177299c5a7ed3f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a427480e0ed0ba81a177299c5a7ed3f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b5afaf0005343db05b470b31612f2a38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b5afaf0005343db05b470b31612f2a38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/01ee21a31db330a568900cfe58ac7c18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/01ee21a31db330a568900cfe58ac7c18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c0de37a2d45df3cd066f2de7a4631c8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c0de37a2d45df3cd066f2de7a4631c8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/32c0ce797172b4a8cb1813ba38f89760/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/32c0ce797172b4a8cb1813ba38f89760/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7dcd10900d94fa4d353e3b42d0f7cc69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7dcd10900d94fa4d353e3b42d0f7cc69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5f3f9c74406a131932076e00d7e77254/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5f3f9c74406a131932076e00d7e77254/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/fe62b30a95f79038c9e6a45143259887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/fe62b30a95f79038c9e6a45143259887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d0756fa6fb9511b99f3a5d470ee350ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d0756fa6fb9511b99f3a5d470ee350ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/af2ace9812d6f664caf9a277b8fba70e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/af2ace9812d6f664caf9a277b8fba70e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e93318af951b632ea9e5907b36aa5e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e93318af951b632ea9e5907b36aa5e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ba42cbc3f28aee63f08c00feae6c7d47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ba42cbc3f28aee63f08c00feae6c7d47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/74020468ef8d6cc7dee7c2b133003520/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/74020468ef8d6cc7dee7c2b133003520/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c1b83a2cc731d816cdf53c68571adc86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c1b83a2cc731d816cdf53c68571adc86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2f37f383580f7b8553baa3ab93bab73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2f37f383580f7b8553baa3ab93bab73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e879da0eca59477cf3a056052236b627/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e879da0eca59477cf3a056052236b627/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ee9a0d8ce40f99a3ad56ecb92cdec682/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ee9a0d8ce40f99a3ad56ecb92cdec682/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/0cf01dbc89a91c770f97dda81064170c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/0cf01dbc89a91c770f97dda81064170c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/360f3a81c703d8cb6d944021e72ef3f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/360f3a81c703d8cb6d944021e72ef3f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc69cc5a3fb0bdb3405f091def397f1e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc69cc5a3fb0bdb3405f091def397f1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/72899d5b9f772b727a59b76795802c98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/72899d5b9f772b727a59b76795802c98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a3b0e57d5ff7bfad26dcf563a21eac0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a3b0e57d5ff7bfad26dcf563a21eac0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/627c0d9781c67d17eeac82f9c0245807/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/627c0d9781c67d17eeac82f9c0245807/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/84a424890367ba8dfac4bd56b9cb8e7e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/84a424890367ba8dfac4bd56b9cb8e7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b66104ab589c54390c5744525c2948ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/swind/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b66104ab589c54390c5744525c2948ed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/60f0792ca9a6e8387b3b53603ff23a52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/60f0792ca9a6e8387b3b53603ff23a52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dec09ceadca37485e925cad041b84d5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dec09ceadca37485e925cad041b84d5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/aa5c406758af046a1c638da5f8bb0dd9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/swind/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/aa5c406758af046a1c638da5f8bb0dd9/AndroidManifest.xml:20:5-44
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+		ADDED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/swind/Desktop/BuyTicket/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/swind/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b0c280b44e6aeb6dee60ea9d96a779bf/AndroidManifest.xml:9:13-64

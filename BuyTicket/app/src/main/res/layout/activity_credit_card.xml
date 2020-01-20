@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditCardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/credit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:text="線上儲值" />
+
+        <ScrollView
+            android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/head_credit_ctbc" />
+
+                <TextView
+                    android:id="@+id/credit_title_corp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TicTicket票券股份有限公司"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:id="@+id/credit_title_orderNum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="訂單編號"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+
+
+                        <TextView
+                            android:id="@+id/credit_value_orderNum"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="930028301983"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+                    </TableRow>
+
+                    <!--<TableRow android:layout_height="1dp" android:background="#FFF">-->
+                        <!--<TextView android:layout_span="2" android:layout_height="1dp"-->
+                        <!--android:layout_width="fill_parent" android:text="">-->
+                        <!--</TextView>-->
+                    <!--</TableRow>-->
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/credit_title_orderMoney"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="訂單金額"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/credit_value_orderMoney_mark"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="NT. "
+                                android:textColor="@color/white"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:id="@+id/credit_value_orderMoney"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1000"
+                                android:textColor="@color/white"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:id="@+id/credit_title_creditNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="信用卡號"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/credit_value_creditNum_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:backgroundTint="@color/white"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:maxLength="4"/>
+
+                        <EditText
+                            android:id="@+id/credit_value_creditNum_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:backgroundTint="@color/white"
+                            android:textColor="@color/white"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:maxLength="4"/>
+
+                        <EditText
+                            android:id="@+id/credit_value_creditNum_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:backgroundTint="@color/white"
+                            android:textColor="@color/white"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:maxLength="4"/>
+
+                        <EditText
+                            android:id="@+id/credit_value_creditNum_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:backgroundTint="@color/white"
+                            android:textColor="@color/white"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:maxLength="4"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:id="@+id/credit_title_expire"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="到期日期(MM/YYYY)"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:theme="@style/EditTheme"
+                            android:id="@+id/credit_value_expire_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:backgroundTint="@color/white"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:maxLength="2"
+                            android:hint="04"/>
+
+                        <TextView
+                            android:id="@+id/credit_text_expire"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="/"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:theme="@style/EditTheme"
+                            android:id="@+id/credit_value_expire_year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:backgroundTint="@color/white"
+                            android:textColor="@color/white"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:maxLength="4"
+                            android:hint="2029"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:id="@+id/credit_title_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="背後驗證碼"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:theme="@style/EditTheme"
+                            android:id="@+id/credit_value_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:backgroundTint="@color/white"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:maxLength="3"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/credit_bt_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="送出" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
